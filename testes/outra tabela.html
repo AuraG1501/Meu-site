@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zebra</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(237, 237, 237);
+    }
+
+    div.alinhar {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    li.azul {
+        background-color: rgb(152, 152, 255);
+    }
+
+    li.rosa {
+        background-color: rgb(255, 185, 255);
+    }
+
+    div.colunas ol {
+        background-color: blueviolet;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    ol li{
+        background-color: blueviolet;
+    }
+</style>
+
+<body>
+    <div class="alinhar">
+        <h2 class="title">Definitivamente um titulo</h2>
+    </div>
+    <div class="colunas">
+        <ol>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+        </ol>
+    </div>
+    <ol>
+        <li class="azul"></li>
+        <hr>
+        <li class="rosa"></li>
+        <hr>
+        <li class="azul"></li>
+        <hr>
+        <li class="rosa"></li>
+        <hr>
+        <li class="azul"></li>
+    </ol>
+
+
+</body>
+
+</html>
