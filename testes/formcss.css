@@ -1,0 +1,7 @@
+fieldset{
+    border-radius: 2rem;
+}
+legend{
+    display: flex;
+    justify-content: center;
+}

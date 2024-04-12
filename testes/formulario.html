@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./hello.js">
+    <link rel="stylesheet" href="./formcss.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset id="1">
+            <legend> Dados pessoais </legend>
+            <div class="nome">
+                <label for="nome">Nome</label>
+                <input type="text" name="" id="nome">
+            </div>
+            <div class="data_n">
+                <label for="data_n">Data de nascimento</label>
+                <input type="date" name="" id="data_n">
+            </div>
+            <label for="genero">Sexo</label>
+            <select name="genero" id="">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="N">Não quero informar</option>
+            </select>
+            <div class="doc">
+                <label for="CPF">CPF</label>
+                <input type="text" id="CPF">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend> Filiação </legend>
+            <div class="Filiação">
+                <label for="Responsavel">Nome do Responsavel</label>
+                <input type="text" name="" id="Responsavel">
+                <label for="Responsavel">Nome do 2° Responsavel</label>
+                <input type="text" name="" id="Responsavel">
+                <select name="N">
+                    <option value="N">Não informar</option>
+                    <option value="-" selected>---</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend> Endereço </legend>
+            <div class="Endereço">
+                <label for="CEP">CEP</label>
+                <input type="text" id="CPF">
+                <label for="Tipo_de_logadouro">Tipo de Logadouro</label>
+                <select name="Tipo_de_logadouro" id="">
+                    <option value="Avenida"> Avenida</option>
+                    <option value="Rua">Rua</option>
+                    <option value="Travessa">Travessa</option>
+                    <option value="Conjunto">Conjunto</option>
+                </select>
+                <label for="Logadouro">Logadouro</label>
+                <input type="text" id="Logadouro">
+                <label for="numero_res">Numero</label>
+                <input type="text" id="Logadouro">
+            </div>
+            <div>
+                <label for="Bairro">Bairro</label>
+                <input type="text" id="Bairro">
+                <label for="Cidade">Cidade</label>
+                <input type="text" id="Cidade">
+                <label for="Estado">Estado</label>
+                <select name="Estado" id="Estado">
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MG">MG</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+        </fieldset>
+        </fieldset>
+    </form>
+    <div class="resp_nome">
+        <p> Meu nome é: <span></span></p>
+    </div>
+
+</body>
+
+</html>
