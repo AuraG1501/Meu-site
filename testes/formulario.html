@@ -13,31 +13,37 @@
     <form action="">
         <fieldset id="1">
             <legend> Dados pessoais </legend>
-            <div class="nome">
-                <label for="nome">Nome</label>
-                <input type="text" name="" id="nome">
-            </div>
-            <div class="data_n">
-                <label for="data_n">Data de nascimento</label>
-                <input type="date" name="" id="data_n">
-            </div>
-            <label for="genero">Sexo</label>
-            <select name="genero" id="">
-                <option value="M">Masculino</option>
-                <option value="F">Feminino</option>
-                <option value="N">Não quero informar</option>
-            </select>
-            <div class="doc">
-                <label for="CPF">CPF</label>
-                <input type="text" id="CPF">
+            <div class="dados_pessoais">
+                <div class="nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="" id="nome">
+                </div>
+                <div class="data_n">
+                    <label for="data_n">Data de nascimento:</label>
+                    <input type="date" name="" id="data_n">
+                </div>
+                <label for="genero">Sexo:</label>
+                <select name="genero" id="genero">
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                    <option value="N">Não quero informar</option>
+                </select>
+                <div class="doc">
+                    <label for="CPF">CPF:</label>
+                    <input type="text" id="CPF">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
             </div>
         </fieldset>
         <fieldset>
             <legend> Filiação </legend>
             <div class="Filiação">
-                <label for="Responsavel">Nome do Responsavel</label>
+                <label for="Responsavel">Nome do Responsavel:</label>
                 <input type="text" name="" id="Responsavel">
-                <label for="Responsavel">Nome do 2° Responsavel</label>
+                <label for="Responsavel">Nome do 2° Responsavel:</label>
                 <input type="text" name="" id="Responsavel">
                 <select name="N">
                     <option value="N">Não informar</option>
@@ -48,26 +54,26 @@
         <fieldset>
             <legend> Endereço </legend>
             <div class="Endereço">
-                <label for="CEP">CEP</label>
+                <label for="CEP">CEP:</label>
                 <input type="text" id="CPF">
-                <label for="Tipo_de_logadouro">Tipo de Logadouro</label>
-                <select name="Tipo_de_logadouro" id="">
+                <label for="Tipo_de_logadouro">Tipo de Logadouro:</label>
+                <select name="Tipo_de_logadouro" id="tipo_log">
                     <option value="Avenida"> Avenida</option>
                     <option value="Rua">Rua</option>
                     <option value="Travessa">Travessa</option>
                     <option value="Conjunto">Conjunto</option>
                 </select>
-                <label for="Logadouro">Logadouro</label>
+                <label for="Logadouro">Logadouro:</label>
                 <input type="text" id="Logadouro">
-                <label for="numero_res">Numero</label>
-                <input type="text" id="Logadouro">
+                <label for="numero_res">Numero:</label>
+                <input type="text" id="numero_res">
             </div>
             <div>
-                <label for="Bairro">Bairro</label>
+                <label for="Bairro">Bairro:</label>
                 <input type="text" id="Bairro">
-                <label for="Cidade">Cidade</label>
+                <label for="Cidade">Cidade:</label>
                 <input type="text" id="Cidade">
-                <label for="Estado">Estado</label>
+                <label for="Estado">Estado:</label>
                 <select name="Estado" id="Estado">
                     <option value="AC">AC</option>
                     <option value="AL">AL</option>
@@ -81,9 +87,9 @@
                     <option value="MG">MG</option>
                     <option value="MT">MT</option>
                     <option value="MS">MS</option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PE">PE</option>
                     <option value=""></option>
                     <option value=""></option>
                     <option value=""></option>
@@ -97,6 +103,10 @@
                     <option value=""></option>
                     <option value=""></option>
                 </select>
+            </div>
+            <div class="telefone">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone">
             </div>
         </fieldset>
         </fieldset>
