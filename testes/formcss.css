@@ -13,11 +13,12 @@ legend{
     display: flex;
     justify-content: center;
 }
-input{
+input, .fom button{
     justify-content: space-around;
     border-radius: 2rem;
     border: none;
     background-color: rgb(215, 215,215);
+    width: 10rem;
 }
 label{
     font-size:  larger;
