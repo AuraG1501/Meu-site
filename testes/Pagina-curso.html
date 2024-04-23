@@ -1,0 +1,46 @@
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crono</title>
+</head>
+<body>
+    <div class="tela">
+        <div class="titulo">
+            Crono
+        </div>
+        <div class="fieldset conf_cronometro">
+            <div class="opcoes__fieldset">
+                <input type="radio" name="tipo_cronometro" id="" checked value="Hora">Hora
+                <input type="radio" name="tipo_cronometro" id="" value="Progressivo">Progressivo
+                <input type="radio" name="tipo_cronometro" id="" value="Regressivo">Regressivo
+            </div>
+            <div class="def_time">
+                <label for="def_time">Tempo 
+                    <input type="number" name="def_time" id="def_time" min="00" max="23"> :
+                    <input type="number" name="def_time" id="def_time" min="00" max="59"> :
+                    <input type="number" name="def_time" id="def_time" min="00" max="59">
+                </label>
+            </div>
+        </div>
+        <div class="acoes_crono">
+            <div class="btn" id="botao_start">
+                <i class="fas fa-play"></i>Iniciar
+            </div>
+            <div class="btn" id="botao_reset">
+                <i class="fas fas fa-fast-backward"></i> Resetar
+            </div>
+            <div class="btn" id="botao_stop">
+                <i class="fas fas fa-stop"></i> Parar
+            </div>
+        </div>
+        <div class="cronometro">
+            tempo
+        </div>
+        <div class="data">
+            data
+        </div>
+    </div>
+    <script src="./pag-java.js"></script>
+    </body>
+    </html>
