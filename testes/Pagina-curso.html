@@ -1,25 +1,26 @@
+<!DOCTYPE html>
 <html lang="pt_br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crono</title>
+    <title>Cronometro</title>
 </head>
 <body>
     <div class="tela">
         <div class="titulo">
-            Crono
+            Cronometro
         </div>
         <div class="fieldset conf_cronometro">
             <div class="opcoes__fieldset">
                 <input type="radio" name="tipo_cronometro" id="" checked value="Hora">Hora
-                <input type="radio" name="tipo_cronometro" id="" value="Progressivo">Progressivo
-                <input type="radio" name="tipo_cronometro" id="" value="Regressivo">Regressivo
+                <input type="radio" name="tipo_cronometro" id="" value="Prog">Progressivo
+                <input type="radio" name="tipo_cronometro" id="" value="Reg">Regressivo
             </div>
-            <div class="def_time">
+            <div class="def_time hide">
                 <label for="def_time">Tempo 
-                    <input type="number" name="def_time" id="def_time" min="00" max="23"> :
-                    <input type="number" name="def_time" id="def_time" min="00" max="59"> :
-                    <input type="number" name="def_time" id="def_time" min="00" max="59">
+                    <input type="number" name="def_time" hora id="def_time" min="00" max="23"> :
+                    <input type="number" name="def_time" minuto id="def_time" min="00" max="59"> :
+                    <input type="number" name="def_time" segundo id="def_time" min="00" max="59">
                 </label>
             </div>
         </div>
@@ -41,6 +42,6 @@
             data
         </div>
     </div>
-    <script src="./pag-java.js"></script>
+    <script src="java/pag-java.js"></script>
     </body>
     </html>
