@@ -1,0 +1,94 @@
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding-top: 10rem;
+    /*align-items: center;*/
+    background: linear-gradient( to left, #5bcefa, #ffffff, #f1aeb5);
+}
+
+.app, .app__list_tasks{
+    margin: 0 auto;
+    max-width: 50%;
+    max-height: 400px;
+    min-width: 550px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(6, 145, 129, 0.62);
+    border-style: inset;
+    border-radius: 2.5rem;
+    border-width: 0.25rem;
+    border-color: #b8ffaa;
+}
+.app .app__main{
+    position: static;
+}
+.app .app__main .app__main_header{
+    position: sticky;
+}
+.app__form{
+    margin: auto;
+}
+.app__form_add_tasks, .app__list_tasks{
+    background-color: rgba(103, 135, 95, 0.54);
+    border-radius: 10px;
+    padding: 0.10rem 0.25rem;
+    border-style: outset;
+}
+.app__form_grid{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.app__form_titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.app__form_label{
+    padding-top: 0.15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 0.05rem;
+}
+.app__form_text,
+.app__form_textarea,
+.app__form_select{
+    border-radius: 6px;
+    height: 2rem;
+    border-color: #6f42c1;
+    padding: 0.25rem;
+}
+.app__form_textarea{
+    resize: none;
+    height: 3rem;
+}
+
+.app__form_buttons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form__buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #9ec5fe;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: outset;
+}
+.hidden{
+    display: none;
+}

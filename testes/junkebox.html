@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Mesa de som</title>
     <link rel="stylesheet" href="./css/caixa%20de%20musica.css">
 </head>
 <body>
-<audio src="mixkit-one-clap-481.wav"></audio>
+<audio  id="som_tecla_clap" src="junkebox/9.wav"></audio>
+<audio  id="som_tecla_puff" src="junkebox/8.wav"></audio>
+<audio  id="som_tecla_pom" src="junkebox/7.wav"></audio>
+<audio  id="som_tecla_psh" src="junkebox/6.wav"></audio>
+<audio  id="som_tecla_splash" src="junkebox/5.wav"></audio>
+<audio  id="som_tecla_tic" src="junkebox/4.wav"></audio>
+<audio  id="som_tecla_tim" src="junkebox/3.wav"></audio>
+<audio  id="som_tecla_toin" src="junkebox/2.wav"></audio>
+<audio  id="som_tecla_tom" src="junkebox/1.wav"></audio>
 <div class="teclado">
-    <button class="teclas">#1</button>
-    <button class="teclas">#2</button>
-    <button class="teclas">#3</button>
-    <button class="teclas">#4</button>
-    <button class="teclas">#5</button>
-    <button class="teclas">#6</button>
-    <button class="teclas">#7</button>
-    <button class="teclas">#8</button>
-    <button class="teclas">#9</button>
+    <button class="teclas" id="tecla_clap" >#9</button>
+    <button class="teclas" id="tecla_puff" >#8</button>
+    <button class="teclas" id="tecla_pom" >#7</button>
+    <button class="teclas" id="tecla_psh" >#6</button>
+    <button class="teclas" id="tecla_splash" >#5</button>
+    <button class="teclas" id="tecla_tic" >#4</button>
+    <button class="teclas" id="tecla_tim" >#3</button>
+    <button class="teclas" id="tecla_toin" >#2</button>
+    <button class="teclas" id="tecla_tom" >#1</button>
 </div>
 </body>
 <script src="java/musica.js"></script>
