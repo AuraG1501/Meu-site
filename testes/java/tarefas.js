@@ -131,7 +131,7 @@ const criaElemento = (tarefa, index) => {
 /*Carrega as tarefas na página*/
 tarefas_ls.forEach((tarefa, index) => {
     const divElemento = criaElemento(tarefa, index);
-    div_lista_tasks.append(divElemento);
+    div_lista_tasks.prepend(divElemento);
 });
 /*exibir formulário*/
 const btnToggle = () => {
@@ -146,7 +146,7 @@ btnCancelTask.addEventListener('click', () => {
     btnToggle();
 });
 btnSaveTask.addEventListener('click', () => {
-    btnToggle();
+    //btnToggle();
 });
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();

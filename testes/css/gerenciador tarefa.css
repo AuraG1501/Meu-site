@@ -42,6 +42,40 @@ body{
     padding: 0.10rem 0.25rem;
     border-style: outset;
 }
+.app__list_tasks{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    justify-content: space-between;
+}   
+.app__list_tasks_task{
+    background-color: hsla(var(--hue), 65%, 95%, 0.65);
+    margin: auto;
+    border-radius: 0.75rem;
+    padding: 4 rem;
+    border-style: outset;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.task_name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.task_name>span{
+    /*background-color: var(--cor-base);*/
+    width: 65%;
+    font-weight: bold;
+    text-align: center;
+}
+.task_details{
+    display: flex;
+    flex-direction: column;
+}
 .app__form_grid{
     height: 100%;
     display: flex;
